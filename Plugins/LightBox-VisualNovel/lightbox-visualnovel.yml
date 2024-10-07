@@ -1,0 +1,16 @@
+name: Lightbox Visual Novel
+# requires: CommunityScriptsUILibrary
+description: Display the image description with Typewriter effect on the footer.
+version: 0.1
+settings:
+  debug:
+    displayName: Console log - enable/disable 
+    description: Log details on the browser console.
+    type: BOOLEAN
+ui:
+  requires:
+    - CommunityScriptsUILibrary
+  javascript:
+    - core.js
+    - lightbox-visualnovel.js
+
