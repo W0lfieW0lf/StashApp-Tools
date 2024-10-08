@@ -29,7 +29,7 @@ buildPlugin()
     # create the zip file
     # copy other files
     zipfile=$(realpath "$outdir/$plugin_id.zip")
-    
+    echo "${zipfile}"
     pushd "$dir" > /dev/null
     zip -r "$zipfile" . > /dev/null
     popd > /dev/null
