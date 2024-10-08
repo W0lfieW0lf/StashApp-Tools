@@ -62,5 +62,6 @@ buildPlugin()
 }
 
 find ./Plugins -mindepth 1 -name *.yml | while read file; do
+echo "${file}" 
     buildPlugin "$file"
 done
