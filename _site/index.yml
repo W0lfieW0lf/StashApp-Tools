@@ -1,0 +1,11 @@
+- id: lightbox-visualnovel
+  name: Lightbox Visual Novel
+  metadata:
+    description: Display the image description with Typewriter effect on the footer.
+  version: 0.1-e496a98
+  date: 2024-10-07 03:37:16
+  path: lightbox-visualnovel.zip
+  sha256: 
+  requires:
+    - CommunityScriptsUILibrary
+
