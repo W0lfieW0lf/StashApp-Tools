@@ -7,7 +7,7 @@
 // @grant       none
 // @version     3.0
 // @author      MSB
-// @description Sync Button in TMDB Site.to Create Movie/Performer in Stash and Update performer missing info.
+// @description Create Performer,groups and add scene to group from TMDB website.
 // @grant GM_setValue
 // @grant GM_getValue
 // @grant GM.setValue
